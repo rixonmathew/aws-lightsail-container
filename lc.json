@@ -1,0 +1,15 @@
+{
+  "serviceName": "helloworld-flask",
+  "containers": {
+     "helloworld-flask": {
+        "image": ":helloworld-flask.hello-world.2",
+        "ports": {
+           "8080": "HTTP"
+        }
+     }
+  },
+  "publicEndpoint": {
+     "containerName": "helloworld-flask",
+     "containerPort": 8080
+  }
+}
